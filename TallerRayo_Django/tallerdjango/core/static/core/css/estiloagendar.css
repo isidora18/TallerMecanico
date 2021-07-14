@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(7, 83, 97);
+    font-family:  sans-serif;
+}
+li {
+    list-style: none;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: black;
+        align-items: center;
+}
+.Logotipo{
+    width: 125px;
+    height:"100"
+}
+.Logosrs{
+    width: 24px;
+}
+.blockquote{
+    size: 12px;
+}

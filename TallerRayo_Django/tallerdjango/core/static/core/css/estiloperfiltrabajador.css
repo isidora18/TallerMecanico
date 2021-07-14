@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(7, 83, 97);
+    font-family:  sans-serif;
+}
+li {
+    list-style: none;
+}
+
+.Logotipo{
+    width: 125px;
+    height:"100"
+}

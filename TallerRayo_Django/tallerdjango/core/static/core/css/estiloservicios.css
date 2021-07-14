@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(7, 83, 97);
+    font-family:  sans-serif;
+}
+li {
+    list-style: none;
+}
+.blockquote{
+    size: 12px;
+}
+.Logotipo{
+    width: 125px;
+    height:"100"
+}
+.Logosrs{
+    width: 24px;
+}
+.card-title{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    color:rgba(11, 11, 150, 0.856);
+    background: #c92548d2;
+    margin: 0 0 25px;
+    overflow: hidden;
+    padding: 20px;
+}
+.card-text{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        color: black;
+}
+.card-body{
+    height: 250px;
+    
+}
