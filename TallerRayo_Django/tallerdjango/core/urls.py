@@ -1,9 +1,10 @@
 from django.urls import path
 from .views import home,agendar,cajasdecambio,clima,direccion,electronicaauto,formulario,geolocalizacion,inicioperfil,mantencion,perfiltrabajador,quienessomos,servicios,suspension,vehiculo
-
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns =[
-    path('Home',home,name="home"),
+    path('Home',home,name="home")  + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT),
     path('agendar',agendar,name="agendar"),
     path('cajasdecambio',cajasdecambio, name="cajasdecambio"),
     path('clima',clima, name="Clima"),
